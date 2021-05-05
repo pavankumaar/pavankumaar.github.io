@@ -1,2 +1,2 @@
-Please visit my blog
-<a>pavankumaar.github.io</a>
+Please visit my blog<br>
+https://pavankumaar.github.io/
