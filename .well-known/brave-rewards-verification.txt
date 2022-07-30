@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: pavankumaar.github.io
-Token: 74e4c175fe9c8d623a457aba6f38055f5367055127035720620fec23cfb45eff
