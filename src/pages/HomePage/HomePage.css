@@ -1,0 +1,87 @@
+
+.homepage-container{
+ height: 100vh;
+}
+.header{
+ height: 60px;
+ color: black;
+ background-color: white;
+ border-bottom: 1px solid grey;
+ box-shadow: 0 0 10px black;
+ display: flex;
+ align-items: center;
+ padding-left: 50px;
+ padding-right: 50px;
+ justify-content: space-between;
+ position: relative;
+ z-index: 10;
+ top: 0;
+ position: sticky;
+}
+.header .title{
+ font-size: 25px;
+ font-weight: 800;
+}
+.header ul{
+ list-style: none;
+ display: flex;
+}
+.header li{
+ margin-right: 15px;
+}
+.h-items{
+ background-color: blue;
+ color: white;
+ border-radius: 50px;
+ padding: 3px;
+ font-size: 15px;
+ font-weight: 600;
+ padding-left: 10px;
+ padding-right: 10px;
+ cursor: pointer;
+}
+.h-items:hover{
+ background-color: rgb(39, 39, 202);
+}
+.header .links{
+ font-size: 15px;
+}
+.body{
+ height: 100%;
+ position: relative;
+ z-index: 1;
+}
+.body .sidenav{
+ height: 100%;
+ width: 200px;
+ padding-top: 10px;
+ background-color: blue;
+ box-shadow: 0 0 15px black;
+ clip-path: inset(0px -15px 0px 0px);
+}
+.sidenav-list{
+ width: inherit;
+ display: flex;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+.sidenav-list li{
+ color: white;
+ background-color: rgb(6, 6, 221);
+ margin: 10px;
+ display: flex;
+ width: inherit;
+ align-items: center;
+ padding: 10px;
+ border-radius: 10px;
+ border: 2px solid transparent;
+ cursor: pointer;
+ box-shadow: 0 0 3px rgb(49, 49, 49);
+}
+.sidenav-list li:hover{
+ border: 2px solid white;
+}
+.sidenav .item-name{
+ padding-left: 10px;
+}
