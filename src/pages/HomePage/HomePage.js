@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import './HomePage.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faClone } from '@fortawesome/free-solid-svg-icons'
-
+import Header from '../../components/Header/Header'
+import Sidenav from '../../components/Sidenav/Sidenav'
 
 class HomePage extends Component {
   constructor(props) {
     super(props)
+    this.state = {}
   }
   componentDidMount() {
     window.scrollTo(0, 0)
@@ -14,28 +14,12 @@ class HomePage extends Component {
   render() {
     return (
       <>
-       <div className="homepage-container">
-         <div className="header">
-          <div className="title">PAVAN KUMAR.</div>
-          <div className="links">
-           <ul>
-            <li className="h-items">Contact</li>
-            <li className="h-items">Github</li>
-            <li className="h-items">Twitter</li>
-           </ul>
+        <div className='homepage-container'>
+          <Header />
+          <div className='body'>
+            <Sidenav />
           </div>
         </div>
-        <div className="body">
-         <div className="sidenav">
-          <ul className="sidenav-list">
-           <li>
-            <FontAwesomeIcon icon={faClone} />
-             <span className="item-name">UI clones</span>
-           </li>
-          </ul>
-         </div>
-        </div>
-       </div>
       </>
     )
   }

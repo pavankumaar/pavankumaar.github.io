@@ -1,0 +1,34 @@
+.sidenav {
+  height: 100%;
+  width: 200px;
+  padding-top: 10px;
+  background-color: blue;
+  box-shadow: 0 0 10px rgb(122, 122, 122);
+  clip-path: inset(0px -10px 0px 0px);
+}
+.sidenav-list {
+  width: inherit;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sidenav-list li {
+  color: white;
+  background-color: rgb(6, 6, 221);
+  margin: 10px;
+  display: flex;
+  width: inherit;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  box-shadow: 0 0 3px rgb(49, 49, 49);
+}
+.sidenav-list li:hover {
+  border: 2px solid white;
+}
+.sidenav .item-name {
+  padding-left: 10px;
+}

@@ -1,0 +1,117 @@
+.header {
+  height: 60px;
+  color: black;
+  background-color: white;
+  /* border-bottom: 1px solid grey; */
+  box-shadow: 0 0 6px rgb(116, 116, 116);
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+  top: 0;
+  position: sticky;
+}
+.header .title {
+  font-size: 25px;
+  font-weight: 800;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+}
+.header li {
+  margin-right: 15px;
+}
+
+.h-items {
+  background-color: rgb(238, 238, 238);
+  color: black;
+  border-radius: 50px;
+  padding: 3px;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.h-items .popup-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.h-items .popup {
+  width: 270px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(90, 90, 90);
+  position: absolute;
+  background-color: white;
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.contact-item {
+  width: auto;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: rgb(238, 238, 238);
+  overflow: hidden;
+  padding: 10px;
+  margin: 5px;
+  animation: opacity 0.2s ease-in-out;
+}
+.contact-data-copy {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 30px;
+  padding-left: 10px;
+  align-items: center;
+  font-weight: 500;
+  box-shadow: inset 0 0 3px gray;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.contact-copy {
+  /* background-color: white; */
+  border-left: 1px solid rgb(221, 221, 221);
+  display: flex;
+  height: inherit;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.copied {
+  color: rgb(0, 211, 0);
+}
+.contact-copy:hover {
+  color: blue;
+}
+.copied:hover {
+  color: rgb(0, 211, 0);
+}
+.contact-title {
+  color: black;
+}
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.h-items:hover {
+  /* background-color: rgb(39, 39, 202); */
+  box-shadow: 0 0 5px rgb(184, 184, 184);
+}
+.header .links {
+  font-size: 15px;
+}

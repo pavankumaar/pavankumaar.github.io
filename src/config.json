@@ -1,0 +1,15 @@
+{
+  "name": "PAVAN KUMAR",
+  "contactData": [
+    {
+      "id": "1",
+      "name": "Email",
+      "data": "pavan.polamarasetty7@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Whatsapp",
+      "data": "+91 8985203872"
+    }
+  ]
+}
